@@ -1,0 +1,24 @@
+#application.properties
+application.name=${project.name}
+application.version=${project.version}
+
+IPM.processed=processed
+IPM.error=error
+IPM.unprocessed=unprocessed
+IPM.config=./config
+IPM.logs=./logs
+IPM.headerFile=./headerFile
+IPM.IPMLoader=../IPMLoader
+IPM.reports=Reports
+
+IPM.Server = ATLTSTSQL01AEPS.PRIVATECLOUD.LOCAL
+IPM.databaseName = GCIPMTRANSACTIONS
+IPM.userName = gcipmprocess
+IPM.passWord = Gc4pm7rocess@!
+IPM.batchSize = 1000
+IPM.dummyNumber =  
+IPM.fileNameStartWith = INC.AR.T112
+#below ones added by Sreedhar Chahanapally for 1.1 release.
+IPM.bytesToRead=10000
+IPM.waitTime=30000
+IPM.FileAlreadyParsed=0
